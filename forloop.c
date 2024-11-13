@@ -1,11 +1,9 @@
 #include<stdio.h>
-  int main(){
-    // for(int i=0;i<5;i++){
-    //     printf("tanu is kulli!\n");
-    // }
-    // print even numbers less than 20
-    for (int i=2;i<20;i+=2){
+  int main(){ 
+    int i=1;
+    while (i<25){
         printf ("%d\n",i);
+        i++;
     }
     return 0;
 }
